@@ -1,0 +1,22 @@
+# ==========================================
+# robots.txt
+# Shri Ram Motors
+# Hero MotoCorp Authorized Dealer
+# ==========================================
+
+User-agent: *
+
+# Allow all website pages
+Allow: /
+
+# Block unnecessary folders (optional)
+Disallow: /private/
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /temp/
+
+# Crawl Delay (optional)
+Crawl-delay: 5
+
+# Sitemap
+Sitemap: https://dabideepak6-hue.github.io/shri-ram-motors/sitemap.xml
