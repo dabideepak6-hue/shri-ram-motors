@@ -980,5 +980,30 @@ class="top-btn">
 <script src="js/script.js"></script>
 
 </body>
+    <!-- Floating Buttons -->
+<a href="#" class="top-btn">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+<!-- Register Service Worker -->
+<script>
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker
+            .register("./service-worker.js")
+            .then((registration) => {
+                console.log("✅ Service Worker Registered", registration);
+            })
+            .catch((error) => {
+                console.error("❌ Service Worker Registration Failed:", error);
+            });
+    });
+}
+</script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
 </html>
 index.html — Final
